@@ -1,4 +1,4 @@
 
 rootProject.name = "kotlin-learning"
-include("kt", "java")
+include("kt", "java", "tests")
 
