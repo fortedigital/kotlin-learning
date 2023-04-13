@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cad28d0e-1338-45fc-a0fb-5b43c8c3a66e" name="Changes" comment="" />
+    <list default="true" id="cad28d0e-1338-45fc-a0fb-5b43c8c3a66e" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -84,6 +87,7 @@
     "WebServerToolWindowFactoryState": "false",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "full.screen.before.presentation.mode": "false",
     "git-widget-placeholder": "main",
     "jdk.selected.JAVA_MODULE": "17",
     "last_directory_selection": "/Users/tanettrimas/dev/repos/kotlin-learning/kt/src/test/kotlin",
@@ -200,6 +204,7 @@
       <option name="presentableId" value="Default" />
       <updated>1681306525728</updated>
       <workItem from="1681306526995" duration="11471000" />
+      <workItem from="1681383307380" duration="4455000" />
     </task>
     <servers />
   </component>
