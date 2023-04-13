@@ -5,8 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cad28d0e-1338-45fc-a0fb-5b43c8c3a66e" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kt/src/main/kotlin/no/fortedigital/forteflix/Customer.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kt/src/main/kotlin/no/fortedigital/forteflix/IdGenerator.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kt/src/main/kotlin/no/fortedigital/forteflix/Serie.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kt/src/main/kotlin/no/fortedigital/forteflix/SerieType.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/src/test/kotlin/no/fortedigital/forteflix/CustomerTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/src/test/kotlin/no/fortedigital/forteflix/IdGenTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/src/test/kotlin/no/fortedigital/forteflix/SerieTest.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kt/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/kt/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kt/src/main/kotlin/no/fortedigital/Customer.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kt/src/test/kotlin/no/fortedigital/CustomerTest.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/src/test/kotlin/no/fortedigital/CustomerTest.kt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,9 +98,9 @@
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
     "full.screen.before.presentation.mode": "false",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "tanet",
     "jdk.selected.JAVA_MODULE": "17",
-    "last_directory_selection": "/Users/tanettrimas/dev/repos/kotlin-learning/kt/src/test/kotlin",
+    "last_directory_selection": "/Users/tanettrimas/dev/repos/kotlin-learning/tests/src/test/kotlin/no/fortedigital/forteflix",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -113,12 +123,19 @@
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
+    <key name="CreateKotlinClassDialog.RecentsKey">
+      <recent name="no.fortedigital.forteflix" />
+    </key>
+    <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
+      <recent name="no.fortedigital.forteflix" />
+    </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="no.fortedigital.forteflix" />
       <recent name="no.fortedigital" />
     </key>
   </component>
-  <component name="RunManager" selected="Java Scratch.Main">
-    <configuration name="CustomerTest (1)" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Gradle.CustomerTest">
+    <configuration name="CustomerTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -129,9 +146,9 @@
         </option>
         <option name="taskNames">
           <list>
-            <option value=":kt:test" />
+            <option value=":tests:test" />
             <option value="--tests" />
-            <option value="&quot;no.fortedigital.CustomerTest&quot;" />
+            <option value="&quot;no.fortedigital.forteflix.CustomerTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -142,26 +159,52 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="kotlin-learning [test]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="IdGenTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
+        <option name="scriptParameters" value="" />
         <option name="taskDescriptions">
           <list />
         </option>
         <option name="taskNames">
           <list>
-            <option value="test" />
+            <option value=":tests:test" />
+            <option value="--tests" />
+            <option value="&quot;no.fortedigital.forteflix.IdGenTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
       </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
       <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
       <DebugAllEnabled>false</DebugAllEnabled>
-      <ForceTestExec>false</ForceTestExec>
+      <ForceTestExec>true</ForceTestExec>
+      <method v="2" />
+    </configuration>
+    <configuration name="SerieTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":tests:test" />
+            <option value="--tests" />
+            <option value="&quot;no.fortedigital.forteflix.SerieTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
     <configuration name="Main" type="Java Scratch" temporary="true" nameIsGenerated="true">
@@ -178,20 +221,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="no.fortedigital.MainKt" />
-      <module name="kotlin-learning.kt.main" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.CustomerTest" />
+        <item itemvalue="Gradle.SerieTest" />
+        <item itemvalue="Gradle.IdGenTest" />
         <item itemvalue="Java Scratch.Main" />
         <item itemvalue="Java Scratch.Mate" />
-        <item itemvalue="Kotlin.MainKt" />
-        <item itemvalue="Gradle.kotlin-learning [test]" />
-        <item itemvalue="Gradle.CustomerTest (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -204,7 +240,7 @@
       <option name="presentableId" value="Default" />
       <updated>1681306525728</updated>
       <workItem from="1681306526995" duration="11471000" />
-      <workItem from="1681383307380" duration="4455000" />
+      <workItem from="1681383307380" duration="9313000" />
     </task>
     <servers />
   </component>
