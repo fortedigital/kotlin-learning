@@ -18,4 +18,8 @@ class Serie(val title: String, types: Set<SerieType>) {
         require(!types.none { it != serieType })
         types.remove(serieType)
     }
+
+    fun interestWeight(customer: Customer) = types.count {
+        customer.isInterestedIn(setOf(it))
+    }
 }

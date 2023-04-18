@@ -14,5 +14,5 @@ class Customer(val name: String, val registrationDate: LocalDate = LocalDate.now
 
     fun addSerieTypesOfInterest(vararg serieTypes: SerieType) = serieTypesOfInterest.addAll(serieTypes)
     fun removeSerieTypeOfInterest(serieType: SerieType) = serieTypesOfInterest.remove(serieType)
-    fun isInterestedIn(types: Set<SerieType>) = serieTypesOfInterest.any { it in types }
+    fun isInterestedIn(types: Set<SerieType>) = serieTypesOfInterest.containsAll(types)
 }

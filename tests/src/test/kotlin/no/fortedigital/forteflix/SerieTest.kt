@@ -14,7 +14,7 @@ internal class SerieTest {
         assertThrows<IllegalArgumentException> {
             Serie(title = "", types = setOf(SerieType.Drama))
         }
-        assertDoesNotThrow  {
+        assertDoesNotThrow {
             Serie(title = "Min serie", types = setOf(SerieType.Drama))
         }
     }
@@ -38,5 +38,18 @@ internal class SerieTest {
             serie.removeSerieType(SerieType.Drama)
         }
         assertEquals(1, serie.totalSerieTypes())
+    }
+
+    @Test
+    fun interestWeight() {
+        val serie = Serie(title = "Min serie", types = setOf(SerieType.Drama, SerieType.Krim, SerieType.Animasjon))
+        val customer = Customer(name = "Customer").apply {
+            addSerieTypesOfInterest(SerieType.Drama, SerieType.Krim, SerieType.Reality)
+        }
+        val notInterestedAnything = Customer(name = "Not interested").apply {
+            addSerieTypesOfInterest(SerieType.Reality)
+        }
+        assertEquals(0, serie.interestWeight(notInterestedAnything))
+        assertEquals(2, serie.interestWeight(customer))
     }
 }
