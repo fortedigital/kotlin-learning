@@ -3,7 +3,11 @@ package no.fortedigital.forteflix
 import java.time.LocalDate
 
 class Customer(val name: String, val registrationDate: LocalDate = LocalDate.now()) {
-    val id = IdGen.getId()
+    companion object {
+        private val idGenerator = IdGen()
+    }
+
+    val id = idGenerator.getId()
     private val serieTypesOfInterest: MutableSet<SerieType> = mutableSetOf()
 
     init {

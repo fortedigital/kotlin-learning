@@ -14,6 +14,9 @@ class CustomerDatabase(private val serieDatabase: SerieDatabase) {
     }
 
     fun getById(id: Int) = customers[id]
+
+    fun getAll() = customers.values.toList()
+
     fun getBySerieId(id: Int) = serieDatabase.getById(id)?.let { serie ->
         customers.values.filter { customer -> customer.isInterestedIn(serie.typesOfInterest) }
     } ?: emptyList()

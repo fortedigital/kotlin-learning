@@ -15,4 +15,6 @@ class SerieDatabase {
         series.values
             .filter { serie -> serie.typesOfInterest.contains(serieType) }
             .sortedBy(Serie::title)
+
+    fun getAll() = series.values.toList()
 }

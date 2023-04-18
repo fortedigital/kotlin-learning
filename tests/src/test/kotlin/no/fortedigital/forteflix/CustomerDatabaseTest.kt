@@ -13,6 +13,7 @@ internal class CustomerDatabaseTest {
     @BeforeEach
     fun setUp() {
         customerDatabase.clear()
+        serieDatabase.clear()
     }
 
     @Test

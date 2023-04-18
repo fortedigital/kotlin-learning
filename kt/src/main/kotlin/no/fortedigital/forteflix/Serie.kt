@@ -1,7 +1,10 @@
 package no.fortedigital.forteflix
 
 class Serie(val title: String, types: Set<SerieType>) {
-    val id = IdGen.getId()
+    companion object {
+        private val idGenerator = IdGen()
+    }
+    val id = idGenerator.getId()
     private val types: MutableSet<SerieType> = types.toMutableSet()
     val typesOfInterest
         get() = types.toSet()
