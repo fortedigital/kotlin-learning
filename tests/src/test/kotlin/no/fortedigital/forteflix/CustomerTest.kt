@@ -4,6 +4,8 @@ import org.junit.jupiter.api.Test
 import org.junit.jupiter.api.assertThrows
 import java.time.LocalDate
 import kotlin.test.assertEquals
+import kotlin.test.assertFalse
+import kotlin.test.assertTrue
 
 class CustomerTest {
 
@@ -26,10 +28,15 @@ class CustomerTest {
     fun totalSerieTypesOfInterest() {
         val customer = Customer(name = "OddMagne")
 
-        customer.addSerieTypeOfInterest(SerieType.Talkshow)
+        customer.addSerieTypesOfInterest(SerieType.Talkshow)
         assertEquals(1, customer.totalSerieTypesOfInterest())
+
+        assertTrue(customer.isInterestedIn(setOf(SerieType.Talkshow)))
+        assertFalse(customer.isInterestedIn(setOf(SerieType.Humor)))
+
 
         customer.removeSerieTypeOfInterest(SerieType.Talkshow)
         assertEquals(0, customer.totalSerieTypesOfInterest())
+        assertFalse(customer.isInterestedIn(setOf(SerieType.Talkshow)))
     }
 }

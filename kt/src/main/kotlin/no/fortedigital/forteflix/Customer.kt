@@ -12,6 +12,7 @@ class Customer(val name: String, val registrationDate: LocalDate = LocalDate.now
 
     fun totalSerieTypesOfInterest() = serieTypesOfInterest.size
 
-    fun addSerieTypeOfInterest(serieType: SerieType) = serieTypesOfInterest.add(serieType)
+    fun addSerieTypesOfInterest(vararg serieTypes: SerieType) = serieTypesOfInterest.addAll(serieTypes)
     fun removeSerieTypeOfInterest(serieType: SerieType) = serieTypesOfInterest.remove(serieType)
+    fun isInterestedIn(types: Set<SerieType>) = serieTypesOfInterest.any { it in types }
 }

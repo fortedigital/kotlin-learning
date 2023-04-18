@@ -3,6 +3,8 @@ package no.fortedigital.forteflix
 class Serie(val title: String, types: Set<SerieType>) {
     val id = IdGen.getId()
     private val types: MutableSet<SerieType> = types.toMutableSet()
+    val typesOfInterest
+        get() = types.toSet()
 
     fun totalSerieTypes() = types.size
 

@@ -5,18 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cad28d0e-1338-45fc-a0fb-5b43c8c3a66e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/kt/src/main/kotlin/no/fortedigital/forteflix/Customer.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kt/src/main/kotlin/no/fortedigital/forteflix/IdGenerator.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kt/src/main/kotlin/no/fortedigital/forteflix/Serie.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kt/src/main/kotlin/no/fortedigital/forteflix/SerieType.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/src/test/kotlin/no/fortedigital/forteflix/CustomerTest.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/src/test/kotlin/no/fortedigital/forteflix/IdGenTest.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/src/test/kotlin/no/fortedigital/forteflix/SerieTest.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kt/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/kt/build.gradle.kts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kt/src/main/kotlin/no/fortedigital/Customer.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kt/src/test/kotlin/no/fortedigital/CustomerTest.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/src/test/kotlin/no/fortedigital/CustomerTest.kt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,31 +79,31 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "full.screen.before.presentation.mode": "false",
-    "git-widget-placeholder": "tanet",
-    "jdk.selected.JAVA_MODULE": "17",
-    "last_directory_selection": "/Users/tanettrimas/dev/repos/kotlin-learning/tests/src/test/kotlin/no/fortedigital/forteflix",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;full.screen.before.presentation.mode&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;tanet&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
+    &quot;last_directory_selection&quot;: &quot;/Users/tanettrimas/dev/repos/kotlin-learning/tests/src/test/kotlin/no/fortedigital/forteflix&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
-      "JAVA",
-      "kotlin"
+  &quot;keyToStringList&quot;: {
+    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
+      &quot;JAVA&quot;,
+      &quot;kotlin&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/docs/tasks" />
@@ -240,7 +229,9 @@
       <option name="presentableId" value="Default" />
       <updated>1681306525728</updated>
       <workItem from="1681306526995" duration="11471000" />
-      <workItem from="1681383307380" duration="9313000" />
+      <workItem from="1681383307380" duration="9876000" />
+      <workItem from="1681456775665" duration="56000" />
+      <workItem from="1681820397409" duration="638000" />
     </task>
     <servers />
   </component>
